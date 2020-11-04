@@ -9,7 +9,7 @@ public class Registration {
         String name = scanner.nextLine();
         System.out.println("Kérem az email címet:");
         String email = scanner.nextLine();
-        System.out.println("A regisztált adatok: " + name +" " + email);
+         System.out.println("A regisztált adatok: " + name +" " + email);
 
 
     }

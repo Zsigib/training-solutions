@@ -10,7 +10,7 @@ public class Calculator {
         System.out.println("Kérem a második egész számot!");
         int secondNumber = scanner.nextInt();
         int sum = firstNumber + secondNumber;
-        System.out.println("A Számok összege:" + sum);
+         System.out.println("A Számok összege:" + sum);
 
     }
 }
