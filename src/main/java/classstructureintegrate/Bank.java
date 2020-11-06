@@ -18,6 +18,7 @@ public class Bank {
         String owner = scanner.nextLine();
         System.out.println("Mekkora az induló összeg?");
         int  balance = scanner.nextInt();
+        scanner.nextLine();
         BankAccount bankAccount = new BankAccount(accountNumber, owner, balance);
         System.out.println(bankAccount);
 
@@ -27,6 +28,7 @@ public class Bank {
         String owner2 = scanner.nextLine();
         System.out.println("Mekkora az induló összeg?");
         int  balance2 = scanner.nextInt();
+        scanner.nextLine();
         BankAccount bankAccount2 = new BankAccount(accountNumber2, owner2, balance2);
 
     }
