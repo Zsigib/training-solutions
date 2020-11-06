@@ -28,6 +28,7 @@ public class Store {
     public void store(int amount){
         stock = stock + amount;
     }
+
     public void dispatch (int amount) {
         stock = stock - amount;
     }

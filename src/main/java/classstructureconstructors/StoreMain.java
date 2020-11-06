@@ -16,6 +16,7 @@ public class StoreMain {
         perecbolt.dispatch(243);
 
         System.out.println(italbolt.getProduct() + "=" + italbolt.getStock());
+
         System.out.println(perecbolt.getProduct() + "=" + perecbolt.getStock());
             }
 }

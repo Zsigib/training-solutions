@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Music {
     public static void main(String[] args) {
+
         Song song = new Song();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kedvenc Eladó?");
