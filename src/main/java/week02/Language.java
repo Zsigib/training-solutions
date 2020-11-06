@@ -12,7 +12,6 @@ public class Language {
         for (String length: languages) {
 
 
-
         }
 
         System.out.println();
