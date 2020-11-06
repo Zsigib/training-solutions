@@ -30,6 +30,6 @@ public class Bank {
         int  balance2 = scanner.nextInt();
         scanner.nextLine();
         BankAccount bankAccount2 = new BankAccount(accountNumber2, owner2, balance2);
-
+        System.out.println(bankAccount2);
     }
 }
