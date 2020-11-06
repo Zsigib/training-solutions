@@ -10,8 +10,15 @@ public class BankAccount {
 
     public BankAccount(String accountNumber, String owner, int balance) {
 
-
     }
 
+    public void deposit(){
 
+    }
+    public void withdraw(){
+
+    }
+    public void transfer(){
+
+    }
 }
