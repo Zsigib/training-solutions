@@ -32,9 +32,9 @@ public class Product {
             Product product2 = new Product("Sör", "123");
             Product product3 = new Product("Sör", "1234");
        
-        public boolean areTheyEqual() {
-            return .equals(product1.name, product2.name, product3.name);
-        }
+        boolean areTheyEqual;
+             equals(product1.name, product2.name, product3.name);
+
     }
 
     private static void equals(String name, String name1, String name2) {
