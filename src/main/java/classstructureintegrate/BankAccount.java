@@ -1,5 +1,7 @@
 package classstructureintegrate;
 
+import java.util.Scanner;
+
 public class BankAccount {
 
 
@@ -35,16 +37,20 @@ public class BankAccount {
     public void setBalance(int balance) {
         this.balance = balance;
     }
-/*
-    public  deposit(){
-        return balance + change;
+
+
+
+
+    public void deposit(int change) {
+        this.balance = balance + change;
     }
-    public  withdraw(){
-        return balance - change;
+
+    public void withdraw(int change2) {
+        balance = balance - change2;
+    }
+
+    public void transfer(int change2) {
 
     }
-    public  transfer(){
-        return balance ;
-*/
 }
 

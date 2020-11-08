@@ -32,6 +32,22 @@ public class Bank {
         BankAccount bankAccount2 = new BankAccount(accountNumber2, owner2, balance2);
         System.out.println(bankAccount2);
 
+        System.out.println("Mennyit szeretne betenni??");
+
+        int change  =  scanner.nextInt();
+        scanner.nextLine();
+        bankAccount.deposit(change);
+        System.out.println(bankAccount.getBalance());
+        System.out.println("Mennyit szeretne kivenni?");
+        int change2 =  scanner.nextInt();
+        scanner.nextLine();
+        bankAccount.withdraw(change2);
+        System.out.println(bankAccount.getBalance());
+        System.out.println("Mennyit szeretne utalni?");
+        int change3 =  scanner.nextInt();
+        scanner.nextLine();
+        bankAccount.transfer(change2);
+
 
     }
 
