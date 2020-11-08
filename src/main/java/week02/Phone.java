@@ -47,6 +47,6 @@ public class Phone {
 
         Phone phone2 = new Phone(type2, mem2);
         System.out.println("Teleon típusa: " + phone1.type + "Memória mérete:" + phone1.mem);
-        System.out.println("Teleon típusa: " + phone2.type + "Memória mérete:" + phone2.mem));
+        System.out.println("Teleon típusa: " + phone2.type + "Memória mérete:" + phone2.mem);
     }
 }
