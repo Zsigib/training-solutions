@@ -8,7 +8,9 @@ public class DistanceMain {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Distance distance = new Distance();
+        Distance distance = new Distance(
+                this.distancelnKm
+        );
 
         System.out.println("Kérem a távolságot!");
         double dist = scanner.nextDouble();
@@ -16,5 +18,6 @@ public class DistanceMain {
         System.out.println(distance.getDistancelnKm());
         distance.isExact(distance.getDistancelnKm());
         System.out.println(distance.isExact());
+
      }
 }
