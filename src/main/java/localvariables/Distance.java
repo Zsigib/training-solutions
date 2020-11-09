@@ -12,9 +12,6 @@ public class Distance {
         this.distancelnKm = distancelnKm;
     }
 
-    public boolean isExact() {
-        return exact;
-    }
 
     public void setExact(boolean exact) {
         this.exact = exact;
