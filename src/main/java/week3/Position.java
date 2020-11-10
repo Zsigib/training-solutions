@@ -20,6 +20,11 @@ public class Position {
         return bonus;
     }
 
+    @Override
+    public String toString() {
+        return "Position " + "name= " + name + "bonus=" + bonus;
+    }
+
     public static void main(String[] args) {
 
         List<Position>positions = new ArrayList<>();
