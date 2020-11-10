@@ -24,7 +24,7 @@ public class MeetingRoom {
         return length;
     }
 
-    public void setLength(int length) {
+    public void setLength() {
         this.length = length;
     }
 
@@ -32,13 +32,20 @@ public class MeetingRoom {
         return width;
     }
 
-    public void setWidth(int width) {
+    public void setWidth() {
         this.width = width;
     }
 
 
-
- //   public  int getArea(int length, int width) {
-//        return = length * width;
+    public int getArea() {
+        return = length * width;
     }
-//}
+
+    public String toString() {
+        return "MeetingRoom{" +
+                "name='" + name + '\'' +
+                ", length=" + length +
+                ", width=" + width +
+                '}';
+    }
+}
