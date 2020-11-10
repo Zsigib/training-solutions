@@ -31,7 +31,7 @@ public class Position {
         
         positions.add(new Position("igazgató", 2000000));
         positions.add(new Position("középvezető", 800000));
-        positions.add(new Position("beosztott", 200000));
+        positions.add(new Position("beosztott", 20000));
 
         for (Position position: positions){
             if (position.getBonus() > 150000) {

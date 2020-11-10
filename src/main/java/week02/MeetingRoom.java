@@ -38,7 +38,7 @@ public class MeetingRoom {
 
 
     public int getArea() {
-        return = length * width;
+        return length * width;
     }
 
     public String toString() {
