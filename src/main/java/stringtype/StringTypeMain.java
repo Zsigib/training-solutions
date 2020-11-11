@@ -18,9 +18,13 @@ public class StringTypeMain {
     }
     üres stringet nem enged konkatenálni
  */
+
         String sample = "Abcde";
+
         System.out.println(sample.length());
         System.out.println(sample.charAt(0) + ", " + sample.charAt(2));
         System.out.println(sample.substring(0, 2));
     }
+
 }
+

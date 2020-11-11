@@ -4,28 +4,62 @@ public class IntroControl {
     int number;
 
     public int substractTenIfGreaterThanTen(int number) {
-        if (number > 10) {return number - 10;}
-        else return number;
+        if (number > 10) {
+            return number - 10;
+        } else return number;
     }
 
     public String describeNumber(int number) {
-        if (number == 0) {return "Zero";}
-        else return "Not Zero";
+        if (number == 0) {
+            return "Zero";
+        } else return "Not Zero";
     }
 
     public String greetingToJoe(String name) {
-        if (name.equals("Joe")) {return "Hello Joe";}
-        else return "";
+        if (name.equals("Joe")) {
+            return "Hello Joe";
+        } else return "";
     }
-    public int calculateBonus(int sale){
-        if (sale >= 1000000) {return sale / 10;}
-        else return 0;
+
+    public int calculateBonus(int sale) {
+        if (sale >= 1000000) {
+            return sale / 10;
+        } else return 0;
     }
-    public int calculateConsumption(int prev, int next){
-        if(prev <= next) {return next - prev;}
-        else {return (10000 - prev) + next;}
+
+    public int calculateConsumption(int prev, int next) {
+        if (prev <= next) {
+            return next - prev;
+        } else {
+            return (10000 - prev) + next;
+        }
     }
-    public void printNumbersBetween(int min, int max){
+
+    public void printNumbers(int max) {
+        for (int i = 0; i <= max; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public void printNumbersBetween(int min, int max) {
+        for (int i = min; i <= max; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public void printNumbersBetweenAnyDirection(int a, int b) {
+        if (b > a) {
+            for (int i = a; i <= b; i++) {
+                System.out.println(i);
+            }
+        }
+
+    }
+    public void printOddNumbers(int max){
+        for (int i = 1; i <= max; i = i + 2) {
+            System.out.println(i);
+        }
 
     }
 }
+

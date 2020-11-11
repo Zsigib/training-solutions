@@ -46,7 +46,7 @@ public class Bank {
         System.out.println("Mennyit szeretne utalni?");
         int change3 =  scanner.nextInt();
         scanner.nextLine();
-        bankAccount.transfer(change2);
+        bankAccount.transfer(change3);
 
 
     }

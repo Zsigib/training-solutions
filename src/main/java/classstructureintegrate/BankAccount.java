@@ -49,8 +49,11 @@ public class BankAccount {
         balance = balance - change2;
     }
 
-    public void transfer(int change2) {
 
+
+    public void transfer(BankAccount to, int change3) {
+        withdraw(change3);
+        to.deposit(change3);
     }
 }
 
