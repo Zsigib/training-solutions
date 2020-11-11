@@ -51,7 +51,7 @@ public class BankAccount {
 
 
 
-    public void transfer(BankAccount to, int change3) {
+    public void transfer(int change3) {
         withdraw(change3);
         to.deposit(change3);
     }
