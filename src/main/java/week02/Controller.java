@@ -12,6 +12,23 @@ public class Controller {
         int numberOfMeetingRooms = scanner.nextInt();
         scanner.nextLine();
 
+        for (int i = 0; i < numberOfMeetingRooms; i++) {
+            System.out.println("Add meg a nevet!");
+            String name = scanner.nextLine();
+
+            System.out.println("Add meg a szélességet!");
+            int width = scanner.nextInt();
+            scanner.nextLine();
+
+            System.out.println("Add meg a hosszúságot!");
+            int length = scanner.nextInt();
+            scanner.nextLine();
+
+            MeetingRoom meetingRoom = new MeetingRoom(name, length, width);
+            office.addMeetingRoom(meetingRoom);
+        }
+
+        System.out.println(office.getMeetingRooms());
     }
 
     public void printMenu() {
