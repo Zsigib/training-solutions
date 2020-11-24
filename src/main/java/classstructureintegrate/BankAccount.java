@@ -53,7 +53,7 @@ public class BankAccount {
 
     public void transfer(int change3) {
         withdraw(change3);
-        to.deposit(change3);
+
     }
 }
 
