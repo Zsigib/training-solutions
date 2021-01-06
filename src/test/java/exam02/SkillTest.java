@@ -1,5 +1,6 @@
-package exam02.cv;
+package exam02.SkillTest;
 
+import exam02.Skill;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
