@@ -28,22 +28,22 @@ public class Cruise {
     }
 
     public int getBasicPrice() {
-    }
+    return ;}
 
     public double getPriceForPassenger(Passenger john_doe) {
-    }
+    return ;}
 
     public Passenger findPassengerByName(String jack_doe) {
-    }
+    return ;}
 
     public List<String> getPassengerNamesOrdered() {
-    }
+    return ;}
 
     public double sumAllBookingsCharged() {
-    }
+    return ;}
 
     public Map<CruiseClass, Integer> countPassengerByClass() {
-    }
+    return ;}
 
     public Boat getBoat() {
         return boat;
