@@ -10,7 +10,7 @@ public class Mail {
     
     private Contact from;
     
-    private Contact to;
+    private List<Contact> to;
 
     public <E> Mail(Contact john_doe, List<E> es, String doe_family, String s) {
     }
@@ -27,7 +27,7 @@ public class Mail {
         return from;
     }
 
-    public Contact getTo() {
+    public List<Contact> getTo() {
         return to;
     }
 }
