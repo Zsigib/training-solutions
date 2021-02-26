@@ -1,6 +1,7 @@
 package exam03retake02;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TodoList {
@@ -8,22 +9,30 @@ public class TodoList {
     private List<Todo> todos = new ArrayList<>();
 
     public int getNumberOfItemsLeft() {
+        List<Todo> result = new ArrayList<>();
+        for (Todo todo: todos){
+            if (todo.getState().equals(State.NON_COMPLETED) )
+                result.add(todo);
 
-        int result = todos.size() + 1;
-
-        return result;
+        }
+        int number = result.size();
+        return number;
     }
 
-    public <Todo> List<Todo> getMostImportantTodosText() {
-        Todo importance = (Todo) "";
-        for (int i = 0; i <todos.size(); i++)
+    public List<Todo> getMostImportantTodosText() {
+        List<Todo> importance = new ArrayList<>();
 
-            return (List<Todo>) importance;
+
+        return (List<Todo>) importance;
     }
 
     public void deleteCompleted() {
-
-        if Todo.
+        List<Todo> result = new ArrayList<>();
+        for (Todo todo: todos){
+            if (todo.getState().equals(State.COMPLETED)){
+                result.remove(todo);
+            }
+        }
 
 
     }
@@ -31,12 +40,10 @@ public class TodoList {
 
     public List<Todo> getTodos() {
 
-        List<String> todosToFinish = new ArrayList<>();
-        for T
-
+        return todos;
     }
 
-    public void addTodo(Todo Todo ) {
-        todos.add();
+    public void addTodo(Todo todo) {
+        todos.add(todo);
     }
 }
